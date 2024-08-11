@@ -53,9 +53,9 @@ public class Random_Kelime{
                 //rasgele bir sayı seçilicek ancak arraydaki size kadar
                 int rasgeleIndex = random.nextInt(kelimeDeposu.size());
 
-                System.out.println("Kelime seçildi kelimeniz\n---> ");
+                System.out.print("Kelime seçildi kelimeniz\n---> ");
                 System.out.println(kelimeDeposu.get(rasgeleIndex) 
-                + "---------------------------------------------");
+                + "\n---------------------------------------------");
                 break;
             }
         }
